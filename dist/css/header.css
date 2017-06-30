@@ -1,0 +1,213 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h3,
+h2,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+i {
+  color: inherit;
+  font-family: 'micsoft yehei', sans-serif, 'Adobe 黑体 Std R';
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 12px;
+}
+.clear {
+  clear: both;
+}
+p {
+  font-size: 12px;
+}
+.public {
+  width: 1180px;
+  height: auto;
+  margin: 0 auto;
+}
+.public .title {
+  width: 400px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+.public .title h6 {
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px 15px;
+  background-color: #555555;
+  color: #ffffff;
+  text-align: center;
+}
+.public .title h4 {
+  display: inline-block;
+  font-size: 19px;
+  color: #000;
+  padding: 5px 15px ;
+  margin-top: 10px;
+  text-align: center;
+  border-left: 3px solid #f76d2b;
+  border-right: 3px solid #f76d2b;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.topBar {
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid #eeeeee;
+  background: #fff;
+  position: static;
+  top: 0;
+}
+.topBar .public .los {
+  width: 315px;
+  height: 59px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  float: left;
+}
+.topBar .public .los .topBar_master {
+  padding-left: 30px;
+  line-height: 59px;
+}
+.topBar .public .los .topBar_master .topBarImg {
+  display: block;
+  padding-top: 25px;
+  float: left;
+}
+.topBar .public .los .topBar_master .topBarA {
+  font-size: 12px;
+  float: left;
+  margin-left: 15px;
+}
+.topBar .public .los.topBarPhone {
+  width: 187px;
+  border-left: none;
+}
+.topBar .public .los.sign {
+  width: 280px;
+  margin-left: 200px;
+  border-left: 1px solid #eeeeee;
+}
+.topBar .public .los.sign .topBar_master .topBarA span {
+  color: #eeeeee;
+  padding-left: 1rem;
+}
+.topBar .public .los.topBarLang {
+  width: 190px;
+}
+.topBar .public .los.topBarLang .topBar_master .topBarA {
+  margin-left: 0 !important;
+  float: left;
+}
+.topBar .public .los.topBarLang .topBar_master .topBarSelect {
+  float: left;
+  width: 40px;
+  height: 20px;
+  font-size: 12px;
+  margin-top: 1.2rem;
+  border: none;
+  margin-left: 0.5rem;
+  color: red;
+}
+.topBar .public .los.topBarLang .topBar_master .Flag {
+  float: left;
+  padding-top: 1.4rem;
+  margin-left: 1rem;
+}
+.header {
+  width: 100%;
+  height: 115px;
+}
+.header .public .logo {
+  display: block;
+  float: left;
+  margin-top: 2rem;
+}
+.header .public .headerUl {
+  float: right;
+  height: 80px;
+  margin-top: 2rem;
+}
+.header .public .headerUl .headerLi {
+  float: left;
+  height: 80px;
+  margin-left: 0.5rem;
+}
+.header .public .headerUl .headerLi .headerDiv {
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 0 0.3rem;
+  position: relative;
+  border-bottom: 3px solid #ffffff;
+}
+.header .public .headerUl .headerLi .headerDiv:hover {
+  border-bottom: 3px solid #f76d2b;
+}
+.header .public .headerUl .headerLi .headerDiv:active {
+  border-bottom: 3px solid #f76d2b;
+}
+.header .public .headerUl .headerLi .headerDiv .headerA {
+  padding: 0 1rem;
+  line-height: 40px;
+  display: block;
+  float: left;
+}
+.header .public .headerUl .headerLi .headerDiv .headerS {
+  float: left;
+  width: 0;
+  height: 0;
+  margin-top: 0.9rem;
+  border-top: 8px solid gray;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  cursor: pointer;
+}
+.header .public .headerUl .headerLi .headerDiv .headerS:active {
+  width: 0;
+  height: 0;
+  border-top: 8px solid #f76d2b;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.header .public .headerUl .headerLi .headerDiv .headerList {
+  display: none;
+  width: 100%;
+  background: #eeeeee;
+  position: absolute;
+  top: 43px;
+  z-index: 3;
+  left: 0;
+}
+.header .public .headerUl .headerLi .headerDiv .headerList .headerItem {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #000;
+}
+.header .public .headerUl .headerLi .headerDiv .headerList .headerItem:hover {
+  background-color: #bebebe;
+  transition: background-color 0.3s;
+  color: #000;
+}

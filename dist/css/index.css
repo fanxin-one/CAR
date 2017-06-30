@@ -1,0 +1,1368 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h3,
+h2,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+i {
+  color: inherit;
+  font-family: 'micsoft yehei', sans-serif, 'Adobe 黑体 Std R';
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 12px;
+}
+.clear {
+  clear: both;
+}
+p {
+  font-size: 12px;
+}
+.public {
+  width: 1180px;
+  height: auto;
+  margin: 0 auto;
+}
+.public .title {
+  width: 400px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+.public .title h6 {
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px 15px;
+  background-color: #555555;
+  color: #ffffff;
+  text-align: center;
+}
+.public .title h4 {
+  display: inline-block;
+  font-size: 19px;
+  color: #000;
+  padding: 5px 15px ;
+  margin-top: 10px;
+  text-align: center;
+  border-left: 3px solid #f76d2b;
+  border-right: 3px solid #f76d2b;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.topBar {
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid #eeeeee;
+  background: #fff;
+  position: static;
+  top: 0;
+}
+.topBar .public .los {
+  width: 315px;
+  height: 59px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  float: left;
+}
+.topBar .public .los .topBar_master {
+  padding-left: 30px;
+  line-height: 59px;
+}
+.topBar .public .los .topBar_master .topBarImg {
+  display: block;
+  padding-top: 25px;
+  float: left;
+}
+.topBar .public .los .topBar_master .topBarA {
+  font-size: 12px;
+  float: left;
+  margin-left: 15px;
+}
+.topBar .public .los.topBarPhone {
+  width: 187px;
+  border-left: none;
+}
+.topBar .public .los.sign {
+  width: 280px;
+  margin-left: 200px;
+  border-left: 1px solid #eeeeee;
+}
+.topBar .public .los.sign .topBar_master .topBarA span {
+  color: #eeeeee;
+  padding-left: 1rem;
+}
+.topBar .public .los.topBarLang {
+  width: 190px;
+}
+.topBar .public .los.topBarLang .topBar_master .topBarA {
+  margin-left: 0 !important;
+  float: left;
+}
+.topBar .public .los.topBarLang .topBar_master .topBarSelect {
+  float: left;
+  width: 40px;
+  height: 20px;
+  font-size: 12px;
+  margin-top: 1.2rem;
+  border: none;
+  margin-left: 0.5rem;
+  color: red;
+}
+.topBar .public .los.topBarLang .topBar_master .Flag {
+  float: left;
+  padding-top: 1.4rem;
+  margin-left: 1rem;
+}
+.header {
+  width: 100%;
+  height: 115px;
+}
+.header .public .logo {
+  display: block;
+  float: left;
+  margin-top: 2rem;
+}
+.header .public .headerUl {
+  float: right;
+  height: 80px;
+  margin-top: 2rem;
+}
+.header .public .headerUl .headerLi {
+  float: left;
+  height: 80px;
+  margin-left: 0.5rem;
+}
+.header .public .headerUl .headerLi .headerDiv {
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 0 0.3rem;
+  position: relative;
+  border-bottom: 3px solid #ffffff;
+}
+.header .public .headerUl .headerLi .headerDiv:hover {
+  border-bottom: 3px solid #f76d2b;
+}
+.header .public .headerUl .headerLi .headerDiv:active {
+  border-bottom: 3px solid #f76d2b;
+}
+.header .public .headerUl .headerLi .headerDiv .headerA {
+  padding: 0 1rem;
+  line-height: 40px;
+  display: block;
+  float: left;
+}
+.header .public .headerUl .headerLi .headerDiv .headerS {
+  float: left;
+  width: 0;
+  height: 0;
+  margin-top: 0.9rem;
+  border-top: 8px solid gray;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  cursor: pointer;
+}
+.header .public .headerUl .headerLi .headerDiv .headerS:active {
+  width: 0;
+  height: 0;
+  border-top: 8px solid #f76d2b;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.header .public .headerUl .headerLi .headerDiv .headerList {
+  display: none;
+  width: 100%;
+  background: #eeeeee;
+  position: absolute;
+  top: 43px;
+  z-index: 3;
+  left: 0;
+}
+.header .public .headerUl .headerLi .headerDiv .headerList .headerItem {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #000;
+}
+.header .public .headerUl .headerLi .headerDiv .headerList .headerItem:hover {
+  background-color: #bebebe;
+  transition: background-color 0.3s;
+  color: #000;
+}
+.banner {
+  width: 100%;
+  height: 1100px;
+  background: #f5f5f5;
+}
+.banner .bannerTop {
+  width: 100%;
+  height: 800px;
+  background: #bebebe;
+  position: relative;
+  background: url('../img/banner/banner07.jpg') no-repeat;
+  background-size: 100%;
+}
+.banner .bannerTop .bannerBtn {
+  width: 100%;
+  height: 66px;
+  position: absolute;
+  top: 20rem;
+}
+.banner .bannerTop .bannerBtn .bannerLeft {
+  width: 33px;
+  height: 66px;
+  float: left;
+  border-top-right-radius: 66px;
+  border-bottom-right-radius: 66px;
+  background: #5f5f5f url('../img/banner/4.png') no-repeat;
+  background-position-x: 10px;
+  background-position-y: 28px;
+}
+.banner .bannerTop .bannerBtn .bannerLeft:active {
+  background: #f76d2b url('../img/banner/4.png') no-repeat;
+  background-position-x: 10px;
+  background-position-y: 28px;
+}
+.banner .bannerTop .bannerBtn .bannerLeft:hover {
+  background: #f76d2b url('../img/banner/4.png') no-repeat;
+  background-position-x: 10px;
+  background-position-y: 28px;
+}
+.banner .bannerTop .bannerBtn .bannerRight {
+  width: 33px;
+  height: 66px;
+  float: right;
+  border-top-left-radius: 66px;
+  border-bottom-left-radius: 66px;
+  background: #5f5f5f url('../img/banner/5.png') no-repeat;
+  background-position-x: 13px;
+  background-position-y: 28px;
+}
+.banner .bannerTop .bannerBtn .bannerRight:active {
+  background: #f76d2b url('../img/banner/5.png') no-repeat;
+  background-position-x: 13px;
+  background-position-y: 28px;
+}
+.banner .bannerTop .bannerBtn .bannerRight:hover {
+  background: #f76d2b url('../img/banner/5.png') no-repeat;
+  background-position-x: 10px;
+  background-position-y: 28px;
+}
+.banner .bannerTop .bannerBtn .see {
+  width: 180px;
+  height: 55px;
+  float: left;
+  margin-left: 12rem;
+  margin-top: 10px;
+  background: transparent;
+  border-radius: 30px;
+  color: #000;
+  line-height: 55px;
+}
+.banner .bannerTop .bannerBtn .see b {
+  float: left;
+  margin-left: 1.5rem;
+  font-size: 24px;
+}
+.banner .bannerTop .bannerBtn .see .bannerSee {
+  width: 37px;
+  height: 37px;
+  background: #5f5f5f url('../img/banner/5.png') no-repeat;
+  background-position-x: 15px;
+  background-position-y: 14px;
+  border-radius: 100%;
+  float: right;
+  margin-top: 0.6rem;
+}
+.banner .bannerTop .bannerBtn .see .bannerSee:active {
+  background: #f76d2b url('../img/banner/5.png') no-repeat;
+  background-position-x: 15px;
+  background-position-y: 14px;
+}
+.banner .bannerTop .bannerBtn .see .bannerSee:hover {
+  background: #f76d2b url('../img/banner/5.png') no-repeat;
+  background-position-x: 15px;
+  background-position-y: 14px;
+}
+.banner .bannerTop .bannerBtn .see:hover {
+  background: rgba(247, 109, 43, 0.6);
+}
+.banner .bannerTop .bannerText {
+  width: 1100px;
+  padding-top: 10rem;
+  margin: 0 auto;
+}
+.banner .bannerTop .bannerText img {
+  display: block;
+  margin-bottom: 1rem;
+}
+.banner .bannerTop .bannerBottom {
+  position: absolute;
+  bottom: -22rem;
+  left: 15rem;
+  width: 1100px;
+  height: 484px;
+  background-color: #ffffff;
+}
+.banner .bannerTop .bannerBottom .unsure {
+  display: block;
+  width: 680px;
+  height: 30px;
+  background: #f76d2b;
+  margin: 3rem auto;
+  padding: 10px 20px;
+}
+.banner .bannerTop .bannerBottom .unsure h3 {
+  display: block;
+  text-align: center;
+  line-height: 24px;
+  font-size: 20px;
+  color: #ffffff;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+.banner .bannerTop .bannerBottom .bannerUl {
+  width: 100%;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi {
+  width: calc(14.28571429%);
+  float: left;
+  height: 120px;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi h6 {
+  padding: 2rem 0 2rem 1.5rem;
+  color: #d6d6d6;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi a {
+  display: block;
+  width: 97px;
+  height: 120px;
+  margin: 0 auto;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi a .unsureImg {
+  height: 32px;
+  width: 97px;
+  padding: 1rem 1rem 1rem 0;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi a .unsureImg img {
+  width: 100%;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi a p {
+  text-align: center;
+  color: #d6d6d6;
+  padding: 10px 0;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi a .unsureArrow {
+  width: 95px;
+  margin: 0 auto;
+  background: #fff;
+  height: 7px;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi a:hover p {
+  color: #828282;
+}
+.banner .bannerTop .bannerBottom .bannerUl .bannerLi a:hover .unsureArrow {
+  background: url(../img/banner/arrow03Hover.png) no-repeat;
+}
+.banner .bannerTop .bannerBottom .bannerSearch {
+  width: 100%;
+  height: 250px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist {
+  width: 100%;
+  height: 250px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem {
+  width: calc(20%);
+  height: 70px;
+  padding-top: 30px;
+  float: left;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .any {
+  width: 200px;
+  height: 70px;
+  margin: 0 auto;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .any .searchAnyA {
+  display: block;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  line-height: 40px;
+  border: 1px solid #f5f5f5;
+  text-align: center;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .any .searchAnyA .searchSelect {
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 140px;
+  font-size: 16px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .any p {
+  clear: both;
+  color: #f3f3f3;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price {
+  width: 400px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range {
+  width: 100%;
+  padding-top: 12px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range h5 {
+  display: block;
+  float: left;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise {
+  width: 285px;
+  height: 10px;
+  border: 1px solid #f5f5f5;
+  border-radius: 30px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise .priceList {
+  width: 100px;
+  height: 12px;
+  background-color: #bebebe;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise .priceList .priceRiseleft {
+  width: 40px;
+  position: absolute;
+  top: -5px;
+  left: -20px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise .priceList .priceRiseleft .priceS {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 100%;
+  background: url('../img/banner/priceLeft.png');
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise .priceList .priceRiseleft i {
+  margin-top: 10px;
+  color: #555555;
+  display: block;
+  font-size: 12px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise .priceList .priceRiseRight {
+  width: 40px;
+  position: absolute;
+  top: -5px;
+  right: -20px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise .priceList .priceRiseRight .priceS {
+  display: block;
+  width: 20px;
+  margin: 0 auto;
+  height: 20px;
+  border-radius: 100%;
+  background: url('../img/banner/priceRight.png');
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.price .range .priceRise .priceList .priceRiseRight i {
+  display: block;
+  margin-top: 10px;
+  color: #555555;
+  font-size: 12px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem.serach {
+  width: 600px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .decoretion {
+  text-decoration: underline;
+  color: #f76d2b;
+  float: right;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .seeMore {
+  background-color: #555555;
+  width: 230px;
+  height: 40px;
+  float: right;
+  color: #ffffff;
+  border-radius: 30px;
+  line-height: 40px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .seeMore p {
+  display: block;
+  float: left;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .seeMore .searchBtn {
+  width: 37px;
+  height: 37px;
+  border-radius: 100%;
+  background-image: url('../img/banner/arrow04Hover.png');
+  background-size: 100%;
+  float: left;
+  margin-left: 17px;
+  margin-top: 2px;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .seeMore:hover {
+  background-color: #f76d2b;
+  transition: background-color 0.3s;
+}
+.banner .bannerTop .bannerBottom .bannerSearch .bannerSearchlist .bannerSearchItem .seeMore:hover .searchBtn {
+  background-image: url('../img/banner/arrow04.png');
+  transition: background-image 0.3s;
+}
+.banner .Shadow {
+  clear: both;
+  width: 100%;
+  height: 16px;
+  background: url('../img/banner/Shadow.png');
+}
+.featured {
+  width: 100%;
+  height: 680px;
+}
+.featured .public {
+  overflow: hidden;
+  position: relative;
+}
+.featured .public .unsure {
+  display: block;
+  padding-top: 130px;
+}
+.featured .public .unsure h3 {
+  display: block;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 auto;
+  border-left: 3px solid #f76d2b;
+  border-right: 3px solid #f76d2b;
+}
+.featured .public .featuredCar {
+  width: 300%;
+  height: 530px;
+  position: relative;
+}
+.featured .public .featuredCar .premium {
+  background-color: #fff;
+  width: 1180px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.featured .public .featuredCar .premium .featuredList {
+  width: 49%;
+  float: left;
+  padding: 2rem 0 0 0.5rem;
+}
+.featured .public .featuredCar .premium .featuredList h5 {
+  display: block;
+  text-align: center;
+  width: 80px;
+  padding: 10px;
+  color: #fff;
+  margin: 0 auto;
+  background-color: #3cd225;
+  margin-bottom: 2rem;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem {
+  width: 49%;
+  float: left;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv .premiumImg {
+  width: 255px;
+  height: 180px;
+  background: url('../img/car/car01.jpg') no-repeat;
+  background-size: 80%;
+  background-position-y: -40px;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv h3 {
+  display: block;
+  background-color: #f76d2b;
+  width: 120px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 30px;
+  margin-top: 1rem;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv h6 {
+  padding: 0.5rem 0;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv .premiumBorder {
+  width: 100%;
+  height: 8px;
+  background: url('../img/topBar/line.png') no-repeat;
+  background-size: 100%;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv .premiumBorder:hover {
+  background: url('../img/topBar/lineHover.png') no-repeat;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv .premiumOil {
+  width: 100%;
+  padding-top: 10px;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv .premiumOil .oil {
+  display: block;
+  float: left;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv .premiumOil p {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+.featured .public .featuredCar .premium .featuredList .featuredItem .featuredDiv .premiumOil .new {
+  clear: both;
+  display: block;
+  padding-top: 10px;
+}
+.featured .public .featuredBtnBox {
+  width: 100px;
+  height: 29px;
+  border-radius: 30px;
+  border: 1px solid #bebebe;
+  position: absolute;
+  bottom: 35px;
+  left: 45%;
+  z-index: 5;
+}
+.featured .public .featuredBtnBox .button {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin-top: 2px;
+}
+.featured .public .featuredBtnBox .button.btnAleft {
+  float: left;
+  margin-left: 2px;
+  background-image: url('../img/banner/arrow05.png');
+}
+.featured .public .featuredBtnBox .button.btnAleft:hover {
+  background: #f76d2b url('../img/banner/arrow05Hover.png');
+  background-size: 100%;
+  transition: background-image 0.3s;
+}
+.featured .public .featuredBtnBox .button.btnARight {
+  float: right;
+  margin-right: 2px;
+  background: url('../img/banner/arrow06.png') no-repeat;
+}
+.featured .public .featuredBtnBox .button.btnARight:hover {
+  background: #f76d2b url('../img/banner/arrow04Hover.png');
+  background-size: 100%;
+  transition: background-image 0.3s;
+}
+.welcome {
+  width: 100%;
+  height: 580px;
+  background: url('../img/welcome/welcome-bg.png') no-repeat;
+  background-size: 120%;
+  background-position-x: -40px;
+}
+.welcome .public .welcomeWords {
+  width: 515px;
+  float: left;
+  margin-left: 10rem;
+}
+.welcome .public .welcomeWords .welcomeWordsMaster {
+  margin: 70px 40px;
+  color: #ffffff;
+  font-size: 13px;
+  padding-left: 40px;
+}
+.welcome .public .welcomeWords .welcomeWordsMaster h5 {
+  display: inline-block;
+  font-size: 16px;
+  padding: 4px 20px;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+.welcome .public .welcomeWords .welcomeWordsMaster h1 {
+  display: block;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.welcome .public .welcomeWords .welcomeWordsMaster p {
+  padding-top: 25px;
+}
+.welcome .public .welcomeWords .welcomeWordsMaster i {
+  display: block;
+  padding-top: 10px;
+}
+.welcome .public .welcomes {
+  width: 490px;
+  float: left;
+  position: relative;
+  padding-bottom: 3rem;
+}
+.welcome .public .welcomes .welcomeLIst {
+  margin: 70px 0;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem {
+  width: 225px;
+  height: 200px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  float: left;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem.pb {
+  margin-top: 10px;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv {
+  width: 90px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  cursor: pointer;
+  background: url('../img/welcome/4.png') no-repeat;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg:hover {
+  background: url('../img/welcome/4hover.png');
+  transition: background-image 0.3s;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg.trade-ings {
+  background-image: url('../img/welcome/3HOver.png');
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg.trade-ings:hover {
+  background-image: url('../img/welcome/3.png');
+  transition: background-image 0.3s;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg.buying {
+  background-image: url('../img/welcome/1HOver.png');
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg.buying:hover {
+  background-image: url('../img/welcome/1.png');
+  transition: background-image 0.3s;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg.support {
+  background-image: url('../img/welcome/2HOver.png');
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv .welcomeImg.support:hover {
+  background-image: url('../img/welcome/2.png');
+  transition: background-image 0.3s;
+}
+.welcome .public .welcomes .welcomeLIst .welcomeItem .welcomeDiv h6 {
+  padding-top: 30px;
+  text-align: center;
+  color: #bbbbbb;
+}
+.welcome .public .welcomes .welcomesCenter {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-image: url('../img/welcome/center.png');
+  position: absolute;
+  top: 42%;
+  left: 44%;
+}
+.everything {
+  width: 100%;
+  padding-top: 75px;
+}
+.everything .public {
+  text-align: center;
+}
+.everything .public h6 {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #555555;
+  padding: 8px 20px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.everything .public h4 {
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 30px;
+  border-left: 3px solid #f76d2b;
+  border-right: 3px solid #f76d2b;
+}
+.everything .public .everythingList {
+  width: 1222px;
+  margin-left: -30px;
+  padding-top: 55px;
+}
+.everything .public .everythingList .everythingItem {
+  width: 33%;
+  float: left;
+}
+.everything .public .everythingList .everythingItem .everythingDiv {
+  padding-left: 42px;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster {
+  width: 100%;
+  text-align: left;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .everythingImg {
+  width: 370px;
+  height: 200px;
+  background: #f5f5f5;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .everythingImg img {
+  width: 100%;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .gradeDiv {
+  width: 100%;
+  padding: 30px 0 20px 0;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .gradeDiv i {
+  display: block;
+  float: left;
+  font-size: 12px;
+  color: #d3d3d3;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .gradeDiv .gradeSpans {
+  width: 70px;
+  height: 12px;
+  float: left;
+  margin-left: 10px;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .gradeDiv .gradeSpans .gradeSpan {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+  background: url('../img/banner/grade.png') no-repeat;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .gradeDiv .gradeSpans .gradeSpan.active {
+  background: url('../img/banner/gradeActive.png') no-repeat;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .gradeDiv .gradeSpans .gradeSpan.half {
+  background: url('../img/banner/gradeHalf.png') no-repeat;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .gradeDiv .score {
+  width: 40px;
+  height: 14px;
+  float: left;
+  border: 1px solid #f5f5f5;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 14px;
+  font-size: 12px;
+  margin-left: 10px;
+  color: #555555;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster h5 {
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  border-left: 3px solid #f76d2b;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster p {
+  padding: 30px 0 40px 0;
+  color: #666666;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .readMore {
+  width: 140px;
+  height: 30px;
+  border: 1px solid #f5f5f5;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .readMore span {
+  display: block;
+  float: left;
+  font-size: 13px;
+  line-height: 30px;
+  margin-left: 15px;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .readMore .btnMOre {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-image: url('../img/banner/arrow07.jpg');
+  background-size: 100%;
+  margin-top: 3px;
+  float: right;
+  margin-right: 5px;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .readMore:hover {
+  background-color: #f76d2b;
+  border: 1px solid #f76d2b;
+  transition: background-color 0.3s;
+}
+.everything .public .everythingList .everythingItem .everythingDiv .everythingMaster .readMore:hover .btnMOre {
+  background-image: url('../img/banner/arrow07Active.png');
+  background-size: 100%;
+  transition: background-color 0.3s;
+}
+.everything .Shadow {
+  margin-top: 75px;
+  width: 100%;
+  height: 16px;
+  background-image: url('../img/banner/Shadow.png') no-repeat;
+  background-size: 100%;
+}
+.buySell {
+  width: 100%;
+  padding-top: 50px 0 40px 0;
+  background-color: #f5f5f5;
+}
+.buySell .public .buySelList {
+  width: 1210px;
+  margin-left: -30px;
+}
+.buySell .public .buySelList .buySellItem {
+  width: 50%;
+  float: left;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv {
+  margin-left: 30px;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch {
+  width: 100%;
+  height: 142px;
+  background-color: #f76d2b;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch .searchBtnS {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: url('../img/welcome/search.jpg') no-repeat;
+  float: left;
+  margin: 30px 0 30px 30px;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch .searchBtnS.dallor {
+  background: url('../img/welcome/dallor.jpg') no-repeat;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch .buySellArticle {
+  float: left;
+  color: #ffffff;
+  margin-left: 15px;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch .buySellArticle h5 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch .buySellArticle p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch .buySellSpanS {
+  padding: 60px 18px;
+  background: rgba(255, 255, 255, 0.39);
+  float: right;
+}
+.buySell .public .buySelList .buySellItem .buySellDiv .buySellSearch .buySellSpanS .buySellSpan {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background: url('../img/banner/arrow07Active.png') no-repeat;
+}
+.buySell .public h2 {
+  padding: 45px 0;
+  text-align: center;
+  font-size: 15px;
+  color: #555555;
+}
+.buySell .public h2 span {
+  color: #000;
+}
+.best {
+  width: 100%;
+  height: 1120px;
+}
+.best .public .title {
+  padding: 80px 0 50px 0;
+}
+.best .public .carBoxTitle {
+  width: 100%;
+  text-align: center;
+}
+.best .public .carBoxTitle .carBoxTitleA {
+  display: inline-block;
+  padding: 10px;
+  font-size: 13px;
+  color: #999999;
+}
+.best .public .carBoxTitle .carBoxTitleA .ShadowImg {
+  width: 100%;
+  height: 7px;
+  background-image: url('../img/topBar/line.png') no-repeat;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+.best .public .carBoxTitle .carBoxTitleA:hover {
+  color: #f76d2b;
+}
+.best .public .carBoxTitle .carBoxTitleA:active {
+  color: #f76d2b;
+}
+.best .public .carBoxTitle .carBoxTitleA:hover .ShadowImg {
+  background-image: url('../img/topBar/line.png') no-repeat;
+}
+.best .public .bestBox {
+  width: 100%;
+}
+.best .public .bestBox .bestBoxList {
+  width: 262px;
+  float: left;
+}
+.best .public .bestBox .bestBoxList .bestBoxItem {
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+}
+.best .public .bestBox .bestBoxList .bestBoxItem a {
+  display: block;
+  width: 235px;
+  height: 25px;
+  border-left: 3px solid #dddddd;
+  color: #555555;
+}
+.best .public .bestBox .bestBoxList .bestBoxItem a h5 {
+  font-size: 13px;
+  display: block;
+  line-height: 25px;
+  padding-left: 25px;
+  float: left;
+}
+.best .public .bestBox .bestBoxList .bestBoxItem a .arrowSpan {
+  display: block;
+  float: right;
+  width: 5px;
+  height: 9px;
+  background: url('../img/banner/5.png') no-repeat;
+  margin-top: 8px;
+}
+.best .public .bestBox .bestBoxList .bestBoxItem:hover {
+  border-right: 1px solid #ffffff;
+}
+.best .public .bestBox .bestBoxList .bestBoxItem:hover a {
+  color: #f76d2b;
+  border-left: 3px solid #f76d2b;
+}
+.best .public .bestBox .carsBox {
+  background: red;
+  width: 870px;
+  height: 760px;
+  float: right;
+}
+.dealer {
+  width: 100%;
+  height: 340px;
+  background: url('../img/best/dealerBg.png') no-repeat;
+  background-size: 120%;
+}
+.dealer .public .dealerLIst {
+  width: 100%;
+  padding-top: 70px;
+  margin-left: -20px;
+}
+.dealer .public .dealerLIst .dealerItem {
+  width: 25%;
+  float: left;
+}
+.dealer .public .dealerLIst .dealerItem .dealerBox {
+  padding-right: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+.dealer .public .dealerLIst .dealerItem .dealerBox .dealerBoxImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: url('../img/best/dealer01.png') no-repeat;
+  margin: 0 auto;
+}
+.dealer .public .dealerLIst .dealerItem .dealerBox .dealerBoxImg.dealer02 {
+  background: url('../img/best/dealer02.png') no-repeat;
+}
+.dealer .public .dealerLIst .dealerItem .dealerBox .dealerBoxImg.dealer03 {
+  background: url('../img/best/dealer03.png') no-repeat;
+}
+.dealer .public .dealerLIst .dealerItem .dealerBox .dealerBoxImg.dealer04 {
+  background: url('../img/best/dealer04.png') no-repeat;
+}
+.dealer .public .dealerLIst .dealerItem .dealerBox h4 {
+  font-size: 30px;
+  padding: 30px 0 15px 0;
+}
+.dealer .public .dealerLIst .dealerItem .dealerBox h6 {
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+  padding: 0 15px;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+.signUp {
+  width: 100%;
+  height: 220px;
+  background-color: #333333;
+}
+.signUp .public .signUpBox {
+  width: 100%;
+  padding: 70px 0 60px 0;
+}
+.signUp .public .signUpBox .title {
+  width: 350px;
+  float: left;
+}
+.signUp .public .signUpBox .signUpMaster {
+  width: 830px;
+  float: right;
+  color: #ffffff;
+}
+.signUp .public .signUpBox .signUpMaster p {
+  font-size: 13px;
+  padding-bottom: 22px;
+}
+.signUp .public .signUpBox .signUpMaster .signUpInputs {
+  width: 100%;
+  height: 45px;
+}
+.signUp .public .signUpBox .signUpMaster .signUpInputs .input {
+  display: block;
+  float: left;
+  padding: 10px 20px;
+  border: 1px solid #666666;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.signUp .public .signUpBox .signUpMaster .signUpInputs .input img {
+  display: inline-block;
+}
+.signUp .public .signUpBox .signUpMaster .signUpInputs .input input {
+  width: 270px;
+  height: 21px;
+  margin-left: 10px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.signUp .public .signUpBox .signUpMaster .signUpInputs .signUpBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  background: url('../img/banner/arrow04Hover.png') no-repeat;
+}
+.signUp .public .signUpBox .signUpMaster .signUpInputs .signUpBtn:hover {
+  background-image: url('../img/banner/arrow06.png');
+  background-size: 100%;
+  transition: background-image 0.3s;
+}
+.brooks {
+  width: 100%;
+  height: 810px;
+}
+.brooks .public {
+  padding-top: 90px;
+}
+.brooks .public .brooksTitles {
+  width: 970px;
+  height: 200px;
+  margin: 0 auto;
+  background: url('../img/best/1.png') no-repeat;
+  text-align: center;
+  position: relative;
+}
+.brooks .public .brooksTitles .brooksH {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #000;
+  padding-bottom: 30px;
+}
+.brooks .public .brooksTitles .brooksH span {
+  color: #858585 !important;
+}
+.brooks .public .brooksTitles p {
+  color: #858585;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  padding-top: 30px;
+}
+.brooks .public .brooksTitles .brooksBtns {
+  width: 100px;
+  height: 29px;
+  border-radius: 30px;
+  border: 1px solid #bebebe;
+  position: absolute;
+  top: 210px;
+  left: 45%;
+  z-index: 5;
+}
+.brooks .public .brooksTitles .brooksBtns .button {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin-top: 2px;
+}
+.brooks .public .brooksTitles .brooksBtns .button.brooksLeft {
+  float: left;
+  margin-left: 2px;
+  background-image: url('../img/banner/arrow05.png');
+}
+.brooks .public .brooksTitles .brooksBtns .button.brooksLeft:hover {
+  background: #f76d2b url('../img/banner/arrow05Hover.png');
+  background-size: 100%;
+  transition: background-image 0.3s;
+}
+.brooks .public .brooksTitles .brooksBtns .button.brooksRight {
+  float: right;
+  margin-right: 2px;
+  background: url('../img/banner/arrow06.png') no-repeat;
+}
+.brooks .public .brooksTitles .brooksBtns .button.brooksRight:hover {
+  background: #f76d2b url('../img/banner/arrow04Hover.png');
+  background-size: 100%;
+  transition: background-image 0.3s;
+}
+.footer {
+  width: 100%;
+}
+.footer .orange {
+  width: 100%;
+  height: 120px;
+  background: #f76d2b;
+}
+.footer .orange .public {
+  padding-top: 45px;
+}
+.footer .orange .public .orangeTitles {
+  width: 900px;
+  height: 30px;
+  padding-left: 280px;
+  background: red;
+}
+.footer .orange .public .orangeTitles .orangelist {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 0 35px;
+  display: inline-block;
+  border-left: 3px solid #ffffff;
+}
+.footer .orange .public .orangeTitles .orangelist.firstChild {
+  border-left: 3px solid #f76d2b;
+}
+.footer .grayness {
+  width: 100%;
+  height: 470px;
+  background: #333333;
+}
+.footer .grayness .column {
+  width: 900px;
+  padding-left: 280px;
+}
+.footer .grayness .column .columnLists {
+  width: 100%;
+}
+.footer .grayness .column .columnLists .columnItem {
+  width: 270px;
+  margin-left: 30px;
+  float: left;
+}
+.footer .grayness .column .columnLists .columnItem h5 {
+  padding-top: 50px;
+  padding-bottom: 12px;
+}
+.footer .grayness .column .columnLists .columnItem h5 a {
+  font-size: 14px;
+  color: #f76d2b;
+  padding: 3px 20px;
+  display: inline-block;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+.footer .grayness .column .columnLists .columnItem .List {
+  width: 100%;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item {
+  width: 100%;
+  height: 65px;
+  padding: 17px 0;
+  border-bottom: 1px solid #444444;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .img {
+  width: 85px;
+  height: 65px;
+  float: left;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .img img {
+  width: 100%;
+  height: 100%;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .img.birdImg {
+  width: 14px;
+  height: 12px;
+  padding-top: 10px;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .img.birdImg img {
+  display: block;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .imgInformation {
+  float: left;
+  margin-left: 20px;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .imgInformation h6 {
+  font-size: 12px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .imgInformation p {
+  color: #8b8b8b;
+  margin-top: -16px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .imgInformation i {
+  font-size: 12px;
+  color: #8b8b8b;
+}
+.footer .grayness .column .columnLists .columnItem .List .Item .imgInformation i.birdI {
+  color: #ffffff;
+}
